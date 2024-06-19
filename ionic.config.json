@@ -1,0 +1,7 @@
+{
+  "name": "Pases",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
