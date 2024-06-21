@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-buttons slot="start">
+      <ion-button (click)="return()" class="btn1">
+        <ion-icon name="chevron-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+      <ion-card >
+        <img src="../../assets/icon/{{image}}">
+      </ion-card>
+      <div class="desc">
+        <p>Descripción: </p>
+        {{desc}}
+        <p>Duración: </p>
+        {{hour}}
+        <p>Precio: </p>
+        {{price}}
+      </div>
+
+      <div class="container">
+        <button ion-button (click)="addReserve()" class="btn">Reservar Clase</button>
+        <button ion-button (click)="goToCart()" class="btncar"><ion-icon name="cart"></ion-icon></button>
+      </div>
+      
+</ion-content>

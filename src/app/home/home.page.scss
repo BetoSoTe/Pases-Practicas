@@ -1,0 +1,23 @@
+ion-toolbar{
+    background-color: var(--ion-color-mycolor);
+}
+.btnCla{
+    background-color: var(--ion-color-mycolor);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.btnCar{
+    background-color: var(--ion-color-cart);
+    color: black;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

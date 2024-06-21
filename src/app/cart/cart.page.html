@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="cart">
+    <ion-title>Carrito de Compras</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let product of products" lines="inset">
+      Clase de {{product.name}}<span slot="end">{{product.price}}</span>
+    </ion-item>
+    <ion-item class="bold">
+      Total sin impuestos: <span slot="end">{{total | currency:'MXN'}}</span>
+    </ion-item>
+    <ion-item class="bold">
+      Total con impuestos: <span slot="end">{{totalWithTax | currency:'MXN'}}</span>
+    </ion-item>
+  </ion-list>
+  <div id="center">
+    <button ion-button (click)="checkout()" class="btnRsv">Reservar Clase</button>
+    <button ion-button (click)="remove()" class="btnCan">Cancelar Reserva</button>
+  </div>
+</ion-content>

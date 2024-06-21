@@ -1,0 +1,31 @@
+ion-toolbar {
+    background-color: var(--ion-color-cart);
+    color: black;
+}
+
+.btnRsv {
+    background-color: var(--ion-color-mycolor);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.btnCan {
+    background-color: var(--ion-color-cancel);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#center {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

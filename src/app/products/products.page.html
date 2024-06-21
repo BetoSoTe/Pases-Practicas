@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title>Clases</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let product of products">
+      <ion-card [routerLink]="['/product-detail',product.id]">
+        <img src="../../assets/icon/{{product.image}}" >
+        <div class="card-title">{{product.name}}</div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

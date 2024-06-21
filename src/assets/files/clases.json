@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "name": "Indoor Cycling",
+            "image": "cycling.jpeg",
+            "desc": "Indoor Cycling es un entrenamiento cardiovascular en bicicletas estáticas, guiado por un instructor, que incluye variaciones de velocidad y resistencia al ritmo de la música, mejorando la resistencia y fuerza.",
+            "price": "$200.00",
+            "hour": "45 minutos"
+        },
+        {
+            "id": 2,
+            "name": "Gimnasio",
+            "image": "gym.jpeg",
+            "desc": "El gimnasio es un espacio equipado con máquinas y pesas libres para el entrenamiento de fuerza y cardiovascular. Ofrece clases dirigidas y áreas específicas para ejercicios funcionales, promoviendo la salud y el bienestar.",
+            "price": "$300.00",
+            "hour": "45 minutos"
+        },
+        {
+            "id": 3,
+            "name": "Natación",
+            "image": "nado.jpeg",
+            "desc":"La natación es un ejercicio acuático que trabaja todo el cuerpo, mejorando la resistencia cardiovascular, la fuerza muscular y la flexibilidad. Ideal para todas las edades y niveles de habilidad.",
+            "price": "$150.00",
+            "hour": "45 minutos"
+        },
+        {
+            "id": 4,
+            "name": "Yoga",
+            "image": "yoga.jpeg",
+            "desc": "El yoga es una práctica que combina posturas físicas, respiración y meditación para mejorar la flexibilidad, la fuerza y el bienestar mental. Adecuado para reducir el estrés y aumentar la conciencia corporal.",
+            "price": "$100.00",
+            "hour": "45 minutos"
+        }
+    ]
+}
